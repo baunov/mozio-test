@@ -1,5 +1,7 @@
 # mozio-test
 
+Deployed to: https://mozio-test-a774c.web.app/
+
 Project is created with Vite.
 
 To start run
