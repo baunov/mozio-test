@@ -1,5 +1,15 @@
 # mozio-test
 
+Project is created with Vite.
+
+To start run
+
+```
+npm run dev
+```
+
+In dev mode `<React.StrictMode>` is present. Thus, some hooks may fire twice. This is expected.
+
 Project uses the following libs on top of React:
  - tailwind
  - headlessui
