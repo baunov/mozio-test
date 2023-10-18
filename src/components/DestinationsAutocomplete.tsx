@@ -1,7 +1,6 @@
 import {ForwardedRef, forwardRef, Fragment} from "react";
 import {Combobox, Transition} from "@headlessui/react";
-import {SearchIcon} from "lucide-react";
-import {CheckIcon} from "@heroicons/react/20/solid";
+import {CheckIcon, MagnifyingGlassIcon} from "@heroicons/react/20/solid";
 import {DestinationSearchDto} from "@/types/destination.ts";
 import {LoadingSpinner} from "@/components/LoadingSpinner.tsx";
 
@@ -45,7 +44,7 @@ export const DestinationsAutocomplete = forwardRef(function DestinationsAutocomp
                     />
                     <div className="absolute inset-y-0 right-0 flex items-center pr-5">
                         <Combobox.Button>
-                            <SearchIcon
+                            <MagnifyingGlassIcon
                                 className="h-6 w-6 text-slate-400"
                                 aria-hidden="true"
                             />
