@@ -24,6 +24,7 @@ I think it's a better UX so that user doesn't have to erase previously searched 
 Also, it would look weird if user navigates to a different Destination (e.g. using suggested nearest ones) - and the search would still display the old one.
 
 For search I added 200ms debounce and 1 minute caching of results.
+For getDestinationById and getNearbyDestinations I've set cache TTL to 1 hour.
 
 The destination page can also be opened independantly by entering a url domain/<destination_id>.
 
